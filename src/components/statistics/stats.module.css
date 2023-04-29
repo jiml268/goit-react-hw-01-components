@@ -47,6 +47,7 @@ ul {
 
 .stat_list{
 display: flex;
+flex-wrap: wrap;
 width: 70%;
 margin: 0 auto 50px auto;
 }
