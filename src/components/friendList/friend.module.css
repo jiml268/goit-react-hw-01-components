@@ -1,0 +1,49 @@
+.friend_section{
+    width: 70vw;
+        max-width: 700px;
+}
+
+
+.friend_list{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+        margin: 0 auto;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 5px 0;
+}
+.item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.friend_online,
+.friend_offline {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    border-radius: 50%;
+    
+   
+}
+
+.friend_online{
+    background-color: #056b05;
+}
+
+.friend_offline {
+        background-color: #b10505;
+}
+
+.avatar{
+    width: 15px;
+        width: 72px;
+}
+
+.name{
+    margin-left: 10px;
+}
